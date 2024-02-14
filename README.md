@@ -1,16 +1,19 @@
 # Harmonizing Preferences: Machine Learning for Spotify Song Predictions
 
-This repository contains a project I did to learn how to:
-1) scrape spotify API for my own data
-2) perform exploratory data analysis on the types of songs I like and dislike 
-3) test several machine learning algorithms to determine which can most accurately predict my song preferences.
+This is a repository where I use data science to predict my music tastes using Spotify's rich datasets. This project is a journey through the realms of data scraping, exploratory analysis, and machine learning, all aimed at understanding the intricacies of personal music preferences and developing a model that can accurately forecast whether I'll like a new song.
 
-The measure I used for determining the best model is the F1 score and accuracy, since it is important to have a good balance between precision and recall in song recommendations as well as accurate predictions. Having false positives or false negatives are not costly to the problem at hand (whether I like or dislike a song). 
+Project Overview:
 
-The [code](https://github.com/lindaboshans/Spotify-Recommendation-System/blob/070da1a6bc3a5bf2424c0e7d82ca443eda61f427/Spotify.ipynb) is broken down into three main parts:
-1) Data scraping and processing: Using spotify's API to download all my liked songs (over 1,000 songs) and a playlist of my dislikes (over 900 songs). I organized and cleaned the data for analysis, and also one-hot encoded the genres into 25 broad categories to make it easier to use as features.
-2) Exploratory analysis: looking at trends, characteristics, and correlation of song features.
-3) Predictive Modeling: The second part explores different machine learning algorithms, including linear regression, random forest classfier, AdaBoost and GradientBoosting, and SVM.
+1. **Data Scraping and Processing**: Leveraging Spotify's API, I've gathered a comprehensive dataset encompassing over 1,000 songs I enjoy and more than 900 songs I dislike. The data was organized, cleaned, and prepared for analysis. To facilitate the use of genres as features in machine learning models, I employed one-hot encoding, categorizing the genres into 25 broad groups.
 
-The winning model was the GradientBoosting model with an F1 score of 86.73% using audio features for variables. 
+2. **Exploratory Data Analysis**: This phase involved a deep dive into the data to uncover trends, song feature characteristics, and their correlations. By examining the essence of what makes a song appealing or unappealing to me, I gained insights that guided the subsequent predictive modeling.
 
+3. **Predictive Modeling**: Here, I tested various machine learning algorithms, including Linear Regression, Random Forest Classifier, AdaBoost, Gradient Boosting, and Support Vector Machine (SVM), to identify the one that excels at predicting my song preferences. The evaluation of these models was based on their F1 scores and accuracy, emphasizing the importance of balancing precision and recall alongside making accurate predictions.
+
+The star of the show was the Gradient Boosting model, which achieved an impressive F1 score of 86.73% by leveraging audio features as variables. This outcome underscores the power of machine learning in personalizing music recommendations, where both false positives and false negatives bear minimal cost but significant potential for enhancing user experience.
+
+Why This Project Matters:
+
+"Harmonizing Preferences" is more than just a personal quest to predict song preferences; it's an exploration of how machine learning can be applied to personalize and enhance our daily experiences. Through this project, I've not only honed my skills in data science—from scraping to predictive modeling—but also created a framework that others can adapt to understand and predict their own preferences across various domains.
+
+Dive into the code, explore the findings, and see how data science can tune into our personal tastes, one song at a time.
