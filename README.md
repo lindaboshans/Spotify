@@ -14,6 +14,6 @@ The star of the show was the Gradient Boosting model, which achieved an impressi
 
 Why This Project Matters:
 
-"Harmonizing Preferences" is more than just a personal quest to predict song preferences; it's an exploration of how machine learning can be applied to personalize and enhance our daily experiences. Through this project, I've not only honed my skills in data science—from scraping to predictive modeling—but also created a framework that others can adapt to understand and predict their own preferences across various domains.
+"Harmonizing Preferences" is an exploration of how machine learning can be applied to personalize and enhance our daily experiences. Through this project, I've not only honed my skills in data science—from scraping to predictive modeling—but also created a framework that others can adapt to understand and predict their own preferences across various domains.
 
-Dive into the code, explore the findings, and see how data science can tune into our personal tastes, one song at a time.
+See how data science can tune into our personal tastes, one song at a time.
