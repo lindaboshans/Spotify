@@ -2,7 +2,7 @@
 
 This is a repository where I use data science to predict my music tastes using Spotify's rich datasets. This project is a journey through the realms of data scraping, exploratory analysis, and machine learning, all aimed at understanding the intricacies of personal music preferences and developing a model that can accurately forecast whether I'll like a new song.
 
-Project Overview:
+## Project Overview:
 
 1. **Data Scraping and Processing**: Leveraging Spotify's API, I've gathered a comprehensive dataset encompassing over 1,000 songs I enjoy and more than 900 songs I dislike. The data was organized, cleaned, and prepared for analysis. To facilitate the use of genres as features in machine learning models, I employed one-hot encoding, categorizing the genres into 25 broad groups.
 
@@ -12,7 +12,7 @@ Project Overview:
 
 The star of the show was the Gradient Boosting model, which achieved an impressive F1 score of 86.73% by leveraging audio features as variables. This outcome underscores the power of machine learning in personalizing music recommendations, where both false positives and false negatives bear minimal cost but significant potential for enhancing user experience.
 
-Why This Project Matters:
+## Why This Project Matters:
 
 "Harmonizing Preferences" is an exploration of how machine learning can be applied to personalize and enhance our daily experiences. Through this project, I've not only honed my skills in data science—from scraping to predictive modeling—but also created a framework that others can adapt to understand and predict their own preferences across various domains.
 
